@@ -1,0 +1,5 @@
+@import "../../variable.scss";
+
+.main_class {
+    @include box();
+}

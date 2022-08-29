@@ -1,0 +1,6 @@
+@import "../../variable.scss";
+
+.coin_div {
+    @include box();
+    min-height: 80vh;
+}
