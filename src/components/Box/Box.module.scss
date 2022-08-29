@@ -1,0 +1,66 @@
+@import "../../variable.scss";
+
+.box_header {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.box_img {
+    height: 40px;
+    width: 40px;
+}
+
+.box_title {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 450;
+    color: #212529;
+}
+
+.box_symbol {
+    font-family: $font-family-main;
+    font-size: 10px;
+    font-weight: 450;
+    color: #6C757D;
+}
+
+
+.current_price {
+    font-family: $font-family-main;
+    font-size: 24px;
+    font-weight: 500;
+    color: $main-color;
+}
+
+.up_price {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 450;
+    color: $green-color;
+}
+
+.down_price {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 450;
+    color: $red-color;
+}
+
+.current_numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.description {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

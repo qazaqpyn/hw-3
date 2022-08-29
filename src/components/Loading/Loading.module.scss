@@ -1,0 +1,26 @@
+.loader_size_l {
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .loader_size_l {
+        animation: App-logo-spin infinite 5s linear;
+    }
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

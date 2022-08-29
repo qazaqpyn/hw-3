@@ -1,0 +1,77 @@
+@import "../../variable.scss";
+
+.card {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 2px 4px 0px #00000013;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.card_title {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+.card_img {
+    height: 40px;
+    width: 40px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.title1 {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 450;
+    color: $main-color;
+}
+
+.title2 {
+    font-family: $font-family-main;
+    font-size: 10px;
+    font-weight: 450;
+    color: #6C757D;
+}
+
+
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.price_number {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.up {
+    font-family: $font-family-main;
+    font-size: 10px;
+    font-weight: 500;
+    color: $green-color;
+}
+
+.down {
+    font-family: $font-family-main;
+    font-size: 10px;
+    font-weight: 500;
+    color: $red-color;
+}
